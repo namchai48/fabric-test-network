@@ -14,19 +14,7 @@ services:
     volumes:
       - ./podman/peercfg:/etc/hyperledger/peercfg
 
-  peer1.org2.example.com:
-    volumes:
-      - ./podman/peercfg:/etc/hyperledger/peercfg
-
   peer0.org3.example.com:
-    volumes:
-      - ./podman/peercfg:/etc/hyperledger/peercfg
-
-  peer1.org3.example.com:
-    volumes:
-      - ./podman/peercfg:/etc/hyperledger/peercfg
-
-  peer2.org3.example.com:
     volumes:
       - ./podman/peercfg:/etc/hyperledger/peercfg
 
